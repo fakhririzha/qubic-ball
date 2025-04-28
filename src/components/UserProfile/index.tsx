@@ -99,7 +99,7 @@ export default function UserProfile() {
       });
       queryClient.invalidateQueries({ queryKey: ["users", userId] });
     },
-    onError: (err) => {
+    onError: () => {
       toast({
         description: "An error occured!",
         variant: "destructive",

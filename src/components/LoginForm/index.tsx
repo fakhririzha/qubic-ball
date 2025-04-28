@@ -76,7 +76,7 @@ export default function LoginForm({
       });
       router.push("/");
     },
-    onError: (err) => {
+    onError: () => {
       toast({
         description: "Invalid Credentials!",
         variant: "destructive",
