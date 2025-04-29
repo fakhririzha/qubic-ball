@@ -1,4 +1,4 @@
-export const fetchCache = "default-no-store";
+// export const fetchCache = "default-no-store";
 
 import { User } from "@/types/user.types";
 import { type NextRequest } from "next/server";

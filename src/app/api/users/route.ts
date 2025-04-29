@@ -1,4 +1,4 @@
-export const fetchCache = "default-no-store";
+// export const fetchCache = "default-no-store";
 
 import { type NextRequest } from "next/server";
 
